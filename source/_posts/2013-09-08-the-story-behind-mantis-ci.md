@@ -19,6 +19,8 @@ _**tl;dr**: [Mantis CI](http://floydpink.github.io/Mantis-CI/), is a free app (a
 
 ### Mantis CI
 
+<div style="text-align:center;"><img alt="Mantis CI" src="http://i.imgur.com/MUORuo4.jpg" /></div>
+
 For a while now, a mobile port of the [Travis
 CI](https://travis-ci.org) web application that I packaged as a [PhoneGap](http://phonegap.com/) app had been available for Android [on Google Play](https://play.google.com/store/apps/details?id=com.floydpink.android.travisci).
 
