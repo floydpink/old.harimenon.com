@@ -21,7 +21,7 @@ I hope to be a CTO-ish someone of something-big, founded by myself, one day!
 
 The few that are worthy of mention:
 
- - [Travis CI Mobile](http://floydpink.github.io/Travis-CI/) - Android & iOS applications (done in PhoneGap and ember.js) for Travis CI.
+ - [Mantis CI](http://floydpink.github.io/Mantis-CI/) - Android & iOS applications (done in PhoneGap and ember.js) for Travis CI.
  - [flickr downloadr](http://flickrdownloadr.com) - A flickr download manager for Windows, conceived from a personal need.
  - [lzwCompress.js](http://floydpink.github.io/lzwCompress.js/) - A compression utility spun off from one of the projects I worked for.
 
@@ -37,6 +37,6 @@ The content of the old home page has been archived [here](/bloggerhome), and it'
 
 Have a beautiful day!
 
-<small>Last Updated: 08/07/2013-11:13 EDT</small>
+<small>Last Updated: 09/09/2013-04:54 EDT</small>
 
 ---------------------
