@@ -31,7 +31,7 @@ on to the Mac/Xcode/iOS.
 Click on the buttons above to download the app from one of the stores. Also you could find out more about the apps and get to the open source repositories etc. from [here](http://floydpink.github.io/Mantis-CI/).
 
 Below is a short (self-centric) story behind these apps. :-)
-
+<!-- more -->
 ### Hackathon
 
 Almost an year ago, I took part in a mobility-hackathon-weekend organized by my employer of then, along with a few co-workers. We were all seasoned .NET/Web developers but had no prior experience with any mobile app development. But since most of us were dabbling with HTML5, and hacking in some fairly advanced JavaScript bits, we were quick to decide the weapon-of-choice to be [Cordova/PhoneGap](http://phonegap.com/).
