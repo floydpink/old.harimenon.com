@@ -17,15 +17,15 @@ before_script:
   # Disable SSH server fingerprint verification
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   # Set deployment target to github pages
-  - rake setup_github_pages[$REPO]
+  - bundle rake setup_github_pages[$REPO]
   # To reset the 'url' to the custom domain in '_config.yml'
   - git checkout -- _config.yml
 script:
   # Generate site
-  - rake generate
+  - bundle exec rake generate
 after_script:
   # Deploy!
-  - rake deploy
+  - bundle exec rake deploy
 env:
   global:
     # Repo read-write address
