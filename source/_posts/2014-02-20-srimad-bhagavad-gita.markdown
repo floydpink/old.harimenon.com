@@ -51,6 +51,7 @@ Source: [http://hinduebooks.blogspot.com](http://hinduebooks.blogspot.com)
 
 [മോക്ഷസംന്യാസയോഗഃ](#eighteen)
 
+<!-- more -->
 ## ഓം
 
 
