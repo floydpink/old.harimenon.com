@@ -20,7 +20,7 @@ published: true
 ---
 
 **UPDATE (02/24/2013):**
-I did manage to figure out (thanks to Jon Skeet [answering](http://stackoverflow.com/a/14288190/218882) my question on SO) how to tackle the async/await scenario for a AOP logger using StructureMap and DynamicProxy. Check out [the tag v0.2](https://github.com/floydpink/LoggerPoc/tags) on GitHub for the source.
+I did manage to figure out (thanks to Jon Skeet [answering](http://stackoverflow.com/a/14288190/218882) my question on SO) how to tackle the async/await scenario for a AOP logger using StructureMap and DynamicProxy. Check out ~~[the tag v0.2](https://github.com/floydpink/LoggerPoc/tags)~~ [the tag v0.3](https://github.com/floydpink/LoggerPoc/tags) [1] on GitHub for the source.
 
 <hr />
 
@@ -37,3 +37,5 @@ There is some business specific logging (what I call organic logging )happening 
 The main method that does the AOP magic is the Intercept method of the IInterceptor interface.
 {% gist 4315686 %}
 It could peep into the method being called, its arguments, its return type etc. through the invocation instance, do things like logging and then make the real call to the real invocation. The try/catch that is implemented at this level could be the only place that happens. Auditing, authentication etc. could also be implemented at this layer to affect all the classes/methods one chooses.
+
+[1] - <small>[updated: 03/25/2014]</small>
