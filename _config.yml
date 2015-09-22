@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.harimenon.com
+url: https://www.harimenon.com
 title: Hari Menon
 subtitle: Namaste. Welcome to my personal space on the world wide web!
 author: Hari Menon
-simple_search: http://google.com/search
+simple_search: https://google.com/search
 description: Hari Menon's personal website
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")

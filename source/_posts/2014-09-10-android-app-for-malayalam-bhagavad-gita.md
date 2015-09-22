@@ -15,7 +15,7 @@ created_at: "Wed 10 Sep 2014 14:12:00 EDT"
 
 Published a new, open source Android app last week that is essentially an eBook in Malayalam on Srimad Bhagavad Gita:
 
-[![Android app on Google Play](http://floydpink.github.io/BhagavadGita/images/play-store.png)](https://play.google.com/store/apps/details?id=com.floydpink.android.bhagavadgita)
+[![Android app on Google Play](https://floydpink.github.io/BhagavadGita/images/play-store.png)](https://play.google.com/store/apps/details?id=com.floydpink.android.bhagavadgita)
 
 The source is available on GitHub - https://github.com/floydpink/BhagavadGita-android
 

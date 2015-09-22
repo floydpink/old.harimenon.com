@@ -38,7 +38,7 @@ You could find a few links to my profiles on some of the tech/social sites under
 
 ##### Meta
 
-This blog is built with [Octopress](http://octopress.org/) and is [being built dynamically](http://www.harimenon.com/blog/2013/01/27/auto-deploying-to-my-octopress-blog/) every time [the source repository](https://github.com/floydpink/harimenon.com) is modified and pushed to.
+This blog is built with [Octopress](http://octopress.org/) and is [being built dynamically](https://www.harimenon.com/blog/2013/01/27/auto-deploying-to-my-octopress-blog/) every time [the source repository](https://github.com/floydpink/harimenon.com) is modified and pushed to.
 
 The content of the old home page has been archived [here](/bloggerhome), and it's preserved in its exact form [at blogger](http://harimenonhome.blogspot.com)! You could also see the history of this page [on GitHub](https://github.com/floydpink/harimenon.com/commits/master/source/index.markdown)
 
