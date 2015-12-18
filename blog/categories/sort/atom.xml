@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ sort | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/sort/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sort dropdown/select list items using jQuery]]></title>
+    <link href="https://www.harimenon.com/blog/2010/11/10/sort-dropdownselect-list-items-using/"/>
+    <updated>2010-11-10T19:27:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2010/11/10/sort-dropdownselect-list-items-using</id>
+    <content type="html"><![CDATA[<p><div><script src='https://gist.github.com/4218887.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>

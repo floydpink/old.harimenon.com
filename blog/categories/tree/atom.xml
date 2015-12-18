@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ tree | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/tree/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Trees in the Database - Advanced Data Structures]]></title>
+    <link href="https://www.harimenon.com/blog/2013/04/26/trees-in-the-database/"/>
+    <updated>2013-04-26T11:29:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/04/26/trees-in-the-database</id>
+    <content type="html"><![CDATA[<p>This could be useful - <a href="http://www.slideshare.net/quipo/trees-in-the-database-advanced-data-structures">Trees In The Database - Advanced data structure</a></p>
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/1599248?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/quipo/trees-in-the-database-advanced-data-structures" title="Trees In The Database - Advanced data structures" target="_blank">Trees In The Database - Advanced data structures</a> </strong> from <strong><a href="http://www.slideshare.net/quipo" target="_blank">Lorenzo Alberton</a></strong> </div></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ Macbook Pro | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/macbook-pro/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A proud Macbook Pro owner]]></title>
+    <link href="https://www.harimenon.com/blog/2013/05/29/a-proud-owner/"/>
+    <updated>2013-05-29T00:00:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/05/29/a-proud-owner</id>
+    <content type="html"><![CDATA[<p>I am now a proud owner of a brand-spnking new <a href="http://store.apple.com/us/configure/MD103LL/A">Macbook Pro</a>, thanks to my dear wife's birthday gift last week ! :o)</p>
+
+<p>And she did not spoil any fun; kept it a closely guarded secret until the midnight hour birthday cake!.</p>
+
+<p>I love you, dear wifey! :)</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hari Menon</title>
+  <title>AOP for logging in .NET - Hari Menon</title>
   <meta name="author" content="Hari Menon">
 
   
-  <meta name="description" content="Welcome and Namaste! I am a polyglot developer and have been hacking at things for almost thirteen years now at the time of updating this page. I &hellip;">
+  <meta name="description" content="UPDATE (02/24/2013):
+I did manage to figure out (thanks to Jon Skeet answering my question on SO) how to tackle the async/await scenario for a AOP &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="msvalidate.01" content="09CA63FA87D1D25673E09F580DDBA74D" />
 
   
-  <link rel="canonical" href="https://www.harimenon.com/">
+  <link rel="canonical" href="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
@@ -32,9 +33,10 @@
 
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="menonHari">
-    <meta property="twitter:url" content="https://www.harimenon.com/">
-    <meta property="twitter:title" content="Hari Menon">
-    <meta property="twitter:description" content="Welcome and Namaste! I am a polyglot developer and have been hacking at things for almost thirteen years now at the time of updating this page. I love building things with technology, especially, &hellip;">
+    <meta property="twitter:url" content="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/">
+    <meta property="twitter:title" content="AOP for logging in .NET">
+    <meta property="twitter:description" content="UPDATE (02/24/2013):
+I did manage to figure out (thanks to Jon Skeet answering my question on SO) how to tackle the async/await scenario for a AOP logger using StructureMap and DynamicProxy. Check &hellip;">
 
 
 <!-- favicon etc. -->
@@ -103,53 +105,113 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
-  <h3>Welcome and <a href="http://en.wikipedia.org/wiki/Namaste">Namaste</a>!</h3>
-
-<p>I am a polyglot developer and have been hacking at things for almost thirteen years now at the <a href="#" title="2015-09-02 13:37" onclick="return false;">time</a> of updating this page. I love building things with technology, especially, architecting scalable, highly performing, multi-tier solutions and I strive for rich user experiences in all of the applications I build.</p>
-
-<p><code>C#</code> and <code>.NET</code> have been my bread and butter for quite some time now, with increasing focus into <code>Microsoft Azure</code>, <code>Windows Store Apps</code> and a little bit of cross-platform fun with <code>Xamarin</code>. I am excited that the projects from my day job has been allowing me to work with more of <code>iOS</code>/<code>Android</code>/<code>Web Development</code> projects these days.</p>
-
-<p>Outside of my job, I have also been contributing to <a href="https://github.com/floydpink">a few Open Source projects</a> - especially in <code>NodeJS</code>/<code>.NET</code>/<code>iOS</code>/<code>Android</code>/<code>Web</code> categories and would definitely love to keep doing more of this. Have done a fair bit of <code>AngularJS</code> &amp; <code>EmberJS</code> and using these to write powerful web and/or desktop/mobile apps (with tools like <code>PhoneGap</code>/<code>Cordova</code>, <code>nw.js</code>, <code>electron</code> from GitHub etc.) is what&#8217;s been keeping me busy off late.</p>
-
-<p><code>Swift</code>, the new language from Apple for iOS/Mac OS X development is definitely much more excitng and interesting than working with its kludgy predecessor - <code>Objective-C</code>. <code>JavaScript</code>, <code>C#</code>, <code>Java</code>, <code>Swift</code>, <code>Objective-C</code> are the languages that I work with and love them possibly in that order. <code>WebStorm</code> from JetBrains has been my favorite IDE for quite some time now and <code>Visual Studio</code> (along with <code>ReSharper</code> from JetBrains) is also one the best development tools I have used.</p>
-
-<p><code>Android Studio</code> from Google (built on the <code>IntelliJ</code> platform from JetBrains) is what I use for the little bit of <code>Android</code> development I do. I have also been using quite a bit of the <code>AppCode</code> IDE (JetBrains again) which seems to so much better than Apple&#8217;s free IDE - <code>Xcode</code>.</p>
-
-<h3>Projects</h3>
-
-<p>These are the few that I think are worthy of a mention here:</p>
-
-<ul>
-<li><a href="http://flickrdownloadr.com">flickr downloadr</a> - A flickr download manager for Windows, Mac OS X and Linux conceived from a personal need.</li>
-<li><a href="http://kollavarsham.org">kollavarsham</a> - Open Source libraries for Kollavarsham a.k.a. <a href="https://en.wikipedia.org/wiki/Malayalam_calendar">Malayalam Era</a> calendar.</li>
-<li><a href="http://floydpink.github.io/BhagavadGita">Bhagavad Gita</a> - Android, iOS, Apple iBooks and web versions of <a href="http://en.wikipedia.org/wiki/Bhagavad_Gita">Srimad Bhagavad Gita</a> in <a href="http://en.wikipedia.org/wiki/Malayalam">Malayalam</a>.</li>
-<li><a href="http://floydpink.github.io/lzwCompress.js">lzwCompress.js</a> - A compression utility spun off from one of the projects I worked for.</li>
-<li><a href="https://github.com/floydpink/CachedImage">Cached Image</a> - A WPF control that wraps the native Image control to enable file-system based caching.</li>
-<li><a href="http://floydpink.github.io/Mantis-CI/">Mantis CI</a> - Android &amp; iOS applications (done in PhoneGap and ember.js) for Travis CI (not maintaining this anymore).</li>
-</ul>
+  <header>
+    
+      <h1 class="entry-title">AOP for Logging in .NET</h1>
+    
+    
+      <p class="meta">
+        
 
 
-<p>Check out my GitHub profile for all the stuff that I fork and push to.</p>
 
-<h3>Contact Me</h3>
 
-<p>You could find a few links to my profiles on some of the tech/social sites under the &#8216;About Me&#8217; section. You could leave a comment here or send me an email to &#8216;me@&lt;this-site&#8217;s-domain>&#8217;.</p>
 
-<h5>Meta</h5>
 
-<p>This blog is built with <a href="http://octopress.org/">Octopress</a> and is <a href="https://www.harimenon.com/blog/2013/01/27/auto-deploying-to-my-octopress-blog/">being built dynamically</a> every time <a href="https://github.com/floydpink/harimenon.com">the source repository</a> is modified and pushed to.</p>
 
-<p>The content of the old home page has been archived <a href="/bloggerhome">here</a>, and it&#8217;s preserved in its exact form <a href="http://harimenonhome.blogspot.com">at blogger</a>! You could also see the history of this page <a href="https://github.com/floydpink/harimenon.com/commits/master/source/index.markdown">on GitHub</a></p>
 
-<p>Have a beautiful day!</p>
+  
 
-<p><small>Last Updated: 09/02/2015-13:37 EDT</small></p>
+
+<time datetime="2012-12-16T19:23:00+00:00" pubdate data-updated="true">Dec 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>UPDATE (02/24/2013):</strong>
+I did manage to figure out (thanks to Jon Skeet <a href="http://stackoverflow.com/a/14288190/218882">answering</a> my question on SO) how to tackle the async/await scenario for a AOP logger using StructureMap and DynamicProxy. Check out <del><a href="https://github.com/floydpink/LoggerPoc/tags">the tag v0.2</a></del> <a href="https://github.com/floydpink/LoggerPoc/tags">the tag v0.3</a> [1] on GitHub for the source.</p>
 
 <hr />
 
+
+<p>Implementing the <a href="http://en.wikipedia.org/wiki/Aspect-oriented_programming">AOP pattern</a> into a C# .NET application is something I always wanted to do. I had tried PostSharp with a few other team members, a while ago, but could not get it working soon enough, that we quit the attempt after a while.</p>
+
+<p>After reading up a little more (<a href="http://docs.castleproject.org/Default.aspx?Page=Introduction-to-AOP-With-Castle&amp;amp;NS=Windsor&amp;amp;AspxAutoDetectCookieSupport=1">here</a>, <a href="http://weblogs.asp.net/thangchung/archive/2011/01/25/aop-with-structuremap-container.aspx">here</a> and <a href="http://ayende.com/blog/3474/logging-the-aop-way">here</a>) I am now trying it all over again in the <a href="http://flickrdownloadr.com/">flickr downloadr</a> that I am now working on.</p>
+
+<p>I still haven’t completely cracked it, because the Flickr Downloadr WPF app heavily uses the new asynchrony features (async/await etc.) from .NET 4.5. I hope to somehow adapt the dynamic proxy based intercept paradigm to make it work with the new asynchronous model soonand I shall follow this up here then with the details.</p>
+
+<!-- more -->
+
+
+<p>Meanwhile, here’s <a href="https://github.com/floydpink/LoggerPoc/tags">the solution on GitHub (as tag v0.1)</a> that is a proof-of-concept console app, which calls into two separate service classes. As long as there are no asynchrony features from .NET. 4.5 in your app, you should be able to make use of this pattern.</p>
+
+<p>There is some business specific logging (what I call organic logging )happening inside one of these service classes themselves. But there is also code enables aop logging of all the entry and exit into every method in these pseudo- business objects.</p>
+
+<p>The main method that does the AOP magic is the Intercept method of the IInterceptor interface.</p>
+
+<div><script src='https://gist.github.com/4315686.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>It could peep into the method being called, its arguments, its return type etc. through the invocation instance, do things like logging and then make the real call to the real invocation. The try/catch that is implemented at this level could be the only place that happens. Auditing, authentication etc. could also be implemented at this layer to affect all the classes/methods one chooses.</p>
+
+<p>[1] - <small>[updated: 03/25/2014]</small></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Hari Menon</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-16T19:23:00+00:00" pubdate data-updated="true">Dec 16<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/-net/'>.NET</a>, <a class='category' href='/blog/categories/aop/'>AOP</a>, <a class='category' href='/blog/categories/castle-dynamic-proxy/'>Castle Dynamic Proxy</a>, <a class='category' href='/blog/categories/structuremap/'>StructureMap</a>, <a class='category' href='/blog/categories/aspect-oriented-programming/'>aspect oriented programming</a>, <a class='category' href='/blog/categories/cross-cutting-concerns/'>cross-cutting concerns</a>, <a class='category' href='/blog/categories/instrumentation/'>instrumentation</a>, <a class='category' href='/blog/categories/log4net/'>log4net</a>, <a class='category' href='/blog/categories/logging/'>logging</a>, <a class='category' href='/blog/categories/technical/'>technical</a>, <a class='category' href='/blog/categories/tracing/'>tracing</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/" data-via="menonHari" data-counturl="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/12/07/lzwCompress.js/" title="Previous Post: Compressing JSON - lzwCompress.js">&laquo; Compressing JSON - lzwCompress.js</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/01/15/single-click-deployment/" title="Next Post: Single-click Deployment of WPF Application to GitHub Pages">Single-click Deployment of WPF Application to GitHub Pages &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
   <section>
@@ -279,8 +341,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'https://www.harimenon.com/index.html';
-        var disqus_url = 'https://www.harimenon.com/index.html';
+        var disqus_identifier = 'https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/';
+        var disqus_url = 'https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/';
         var disqus_script = 'embed.js';
       
     (function () {

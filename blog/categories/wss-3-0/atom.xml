@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ WSS 3.0 | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/wss-3-0/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Adding a 'Open in a new window' link on SharePoint document libraries]]></title>
+    <link href="https://www.harimenon.com/blog/2009/06/23/adding-in-new-window-link-on-sharepoint/"/>
+    <updated>2009-06-23T16:29:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2009/06/23/adding-in-new-window-link-on-sharepoint</id>
+    <content type="html"><![CDATA[<div class='post'>
+    <div dir="ltr" style="text-align: left;" trbidi="on"><span>A recent requirement from the client on the project I am working on was to add a new window link on the Report Libraries on a SharePoint Report Center site, that had the reports (*.rdl) generated and deployed from SQL Server Reporting Services (SSRS). The SSRS Report Viewer web parts were being used, but the reports were also being viewed directly from the report libraries to which they are deployed. By default, the link to the report in a Reports Library (for that matter, any document in a SharePoint document library) opens it in the same window, and this was what they wanted to change.</span><br/><br/><span>It is the in-built document library web part that renders all the documents and folders in a document library and that is where the change should be made. Rather than touching any of the core components in SharePoint I analysed the feasibility of using jQuery through a content editor web part (thanks to </span><a
+            href="http://pathtosharepoint.wordpress.com/">Christophe</a><span>) and was able to get it work.</span><br/><br/><span>All one has to do is, edit the AllItems.aspx page of the desired document library from the browser, to add a content editor web part and add the below code within the source editor:</span><br/>
+        <div><script src='https://gist.github.com/4218866.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+<span>Hope this would help someone.</span></div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

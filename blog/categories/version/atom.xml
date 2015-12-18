@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ version | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/version/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Displaying the version for a Microsoft InfoPath 2007 form template]]></title>
+    <link href="https://www.harimenon.com/blog/2009/08/26/displaying-version-for-microsoft/"/>
+    <updated>2009-08-26T19:25:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2009/08/26/displaying-version-for-microsoft</id>
+    <content type="html"><![CDATA[<p>Add an expression box that has the below expression and Voila!</p>
+
+<p><code>plain
+substring-before(substring-after(/processing-instruction()[local-name(.) = "mso-infoPathSolution"], 'solutionVersion="'), '"')
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

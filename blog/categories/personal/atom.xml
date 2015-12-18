@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ personal | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Résumé]]></title>
+    <link href="https://www.harimenon.com/blog/2014/12/30/resume/"/>
+    <updated>2014-12-30T22:26:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2014/12/30/resume</id>
+    <content type="html"><![CDATA[<h1>Haridas Pachuveetil</h1>
+
+<ul>
+<li>Fairfax, VA, United States</li>
+<li>haridas.pachuveetil@gmail.com</li>
+<li>https://www.harimenon.com</li>
+</ul>
+
+
+<p>I love Stack Overflow, probably because I am passionate about technology.  Photography, music, spirituality are my other passions and all of these together makes me feel I am alive.</p>
+
+<p>I try to write a little on my blog about many different things - check it out <a href="https://www.harimenon.com/blog">here</a></p>
+
+<p>You could also read a little more about me at my <a href="http://about.me/hpachuveetil">about.me</a> page.</p>
+
+<p>Stay beautiful !</p>
+
+<hr />
+
+<p>I am currently employed and not actively looking for a switch, but feel free to let me know if you have an offer that you think I cannot resist!</p>
+
+<hr />
+
+<h2>Technical Skills</h2>
+
+<p><strong>Like:</strong> git, web-development, javascript, jquery, ember.js, .net, c#, android, java, phonegap, tdd, open-source, linux, stack-overflow</p>
+
+<hr />
+
+<!-- more -->
+
+
+<h2>Experience</h2>
+
+<p><strong>Technical Architect</strong>, iLink Systems, <em>October 2012 - Current</em></p>
+
+<p>.net, ios, android, jquery, node.js, angularjs, ember.js</p>
+
+<p>Leads the mobility practice that executes projects for development and maintenance of Windows Store, iOS, Android applications in both platform-native and HTML5-hybrid flavors. Extensive hands-on work that spans .NET, Microsoft Azure, HTML5, MV* JavaScript libraries, node.js, iOS,  Android etc.</p>
+
+<p>Technologies: .NET, Windows 8, iOS, Android, Azure, HTML5, PhoneGap, ember.js, AngularJS, node.js etc.</p>
+
+<hr />
+
+<p><strong>Senior Associate</strong>, Cognizant Technology Solutions, <em>May 2010 - October 2012</em></p>
+
+<p>git, .net, asp.net, wcf, mvp, html, javascript, css, jquery, tdd, agile, pair-programming, fitnesse, nunit, phonegap, android, java</p>
+
+<p>Senior Web Developer in the .NET platform executed Agile.</p>
+
+<p>As one of the 5 developers in the team for this web-application-rewrite project, on ASP.NET web application MVP talking to DB2 through a WCF services layer, that has extensive client-side focus with jQuery, jQuery UI, knockoutjs, jQuery templates etc.</p>
+
+<p>This Agile project that embraces a lot of object-oriented design pattern, is done in the test-driven-development vein, with a quite a bit of  pair-programming.</p>
+
+<p>nUnit, Rhino-Mocks, MS Visual Studio Coded UI Tests, Fitnesse etc are extensively used.</p>
+
+<hr />
+
+<p><strong>Senior Sharepoint Developer</strong>, US Tech Solutions Inc, <em>August 2008 - May 2010</em></p>
+
+<p>.net, asp.net, sharepoint, infopath, html, javascript, jquery, css</p>
+
+<p>Senior developer in two successful development/deployment projects, both of which were on MOSS 2007.</p>
+
+<p>The first that spanned from August 2008 to July 2009 was done for a Fortune 20 insurance company in Manhattan, New York City, where a brand new SharePoint intranet application was developed and deployed into production as the only developer in the project. There were a couple of custom web parts, SharePoint branding was used to match the existing intranet look and there was port of an existing ASP.NET web form application that was ported into InfoPath Forms Services.</p>
+
+<p>The second project was for a big name from the banking sector in the North Eastern US located at Bridgeport, CT, where quite a slew of their existing Lotus Notes forms were getting migrated into SharePoint (as InfoPath forms initially, and towards the end as web forms built on a custom ASP.NET form framework, for performance reasons). Was one of the senior developers in the team of 8, singly responsible for the custom built forms framework that was consumed by the entire group.</p>
+
+<hr />
+
+<p><strong>Systems Analyst</strong>, Satyam Computer Services Ltd, <em>March 2003 - April 2008</em></p>
+
+<p>mainframe, cobol, .net</p>
+
+<p>Started as a fresher out of college, working with the &#39;ancient&#39; technology of IBM mainframes writing COBOL, JCL, ReXX, Easytreive mostly with VSAM files as the back-end for a global Fortune 5 client in the finance industry for their credit card processing system - VisionPLUS.</p>
+
+<p>Working with the onsite-offshore delivery model, was located &quot;onsite&quot; at the client offices in Prague, Czech Republic and Wolverhampton, UK during 2005 and in 2006-07 respectively.</p>
+
+<p>There were a couple of projects here and there that were done in .NET and SQL Server.</p>
+
+<p>Consistently received the Star performer award (the top 10 percentile of employees from the annual performance appraisals) four consecutive times from 2004 to 2007.</p>
+
+<p>Software Engineer Trainee, Software Engineer, Senior Software Engineer and Systems Analyst are the titles held during the tenure at Satyam that went just beyond 5 years.</p>
+
+<hr />
+
+<h2>Education</h2>
+
+<p><strong>B Tech Electrical &amp; Electronics Engineering</strong>, NSS College of Engineering, Palakkad under the University of Calicut, Kerala, India, <em>1997 - 2001</em></p>
+
+<p>Got recruited into the then 4th largest software services company of India - Satyam Computer Services Limited, from campus during the 3rd year.</p>
+
+<hr />
+
+<p><strong>10 + 2</strong>, Chinmaya Vidayalaya, Pallavur, <em>1989 - 1997</em></p>
+
+<p>Served as the captain of one of the four houses from School House System (for the extracurricular activities) during the senior year.</p>
+
+<hr />
+
+<h2>Projects &amp; Interests</h2>
+
+<p><strong>Stack Overflow</strong>, <a href="http://stackoverflow.com/users/218882">http://stackoverflow.com/users/218882</a>, <em>November 2009 - Current</em></p>
+
+<p>Written 155 answers.  Active in javascript, jquery, jquery-plugins, c# and vb.net.</p>
+
+<hr />
+
+<p><strong>flickr downloadr - Batch download your flickr photos!</strong>, <a href="http://flickrdownloadr.com/">http://flickrdownloadr.com/</a></p>
+
+<p>c#, mono, gtk#, oauth, flickr, soa</p>
+
+<p>A cross-platform desktop application for Windows, Mac and Linux to download (all or selected) photos from your photostream in their original size along with their description,…</p>
+
+<p>Creator and the only developer in the project right now.</p>
+
+<p>Check out the <a href="http://flickrdownloadr.com">website</a></p>
+
+<hr />
+
+<p><strong>GitHub - flickr downloadr</strong>, <a href="https://github.com/flickr-downloadr/flickr-downloadr-gtk">https://github.com/flickr-downloadr/flickr-downloadr-gtk</a>, <em>March 2014 - June 2015</em></p>
+
+<p>c#, mono, gtk#</p>
+
+<p>A cross-platform desktop app, written in Mono that would download (all or selected) photos from your photostream in their selected size along with their description, title and tags.</p>
+
+<p>Creator and the only developer in the project until now</p>
+
+<hr />
+
+<p><strong>ശ്രീമദ് ഭഗവദ്ഗീത - Android Apps on Google Play</strong>, <a href="https://play.google.com/store/apps/details?id=com.floydpink.android.bhagavadgita">https://play.google.com/store/apps/details?id=com.floydpink.android.bhagavadgita</a></p>
+
+<p>android, java, json, android-studio</p>
+
+<p>A Malayalam eBook on Srimad Bhagavad Gita implemented as a simple Android app</p>
+
+<p>Only developer</p>
+
+<hr />
+
+<p><strong>GitHub - BhagavadGita-android</strong>, <a href="https://github.com/floydpink/BhagavadGita-android">https://github.com/floydpink/BhagavadGita-android</a>, <em>December 2014 - May 2015</em></p>
+
+<p>java, android, android-studio</p>
+
+<p>Malayalam BhagavadGita Android app</p>
+
+<p>Creator and only developer</p>
+
+<hr />
+
+<p><strong>GitHub - BhagavadGita-ios</strong>, <a href="https://github.com/floydpink/BhagavadGita-ios">https://github.com/floydpink/BhagavadGita-ios</a>, <em>December 2014 - May 2015</em></p>
+
+<p>swift, ios, json</p>
+
+<p>Malayalam BhagavadGita iOS app</p>
+
+<p>Creator and only developer</p>
+
+<hr />
+
+<p><strong>Bhagavad Gita (Malayalam) on the App Store on iTunes</strong>, <a href="https://itunes.apple.com/us/app/bhagavad-gita-malayalam/id953008948?mt=8&amp;ign-mpt=uo%3D4">https://itunes.apple.com/us/app/bhagavad-gita-malayalam/id953008948?mt=8&amp;ign-mpt=uo%3D4</a></p>
+
+<p>swift, ios, json</p>
+
+<p>A Malayalam eBook on Srimad Bhagavad Gita implemented as an iOS app</p>
+
+<p>Only Developer</p>
+
+<hr />
+
+<p><strong>Mantis CI - Android Apps on Google Play</strong>, <a href="https://play.google.com/store/apps/details?id=com.floydpink.android.travisci">https://play.google.com/store/apps/details?id=com.floydpink.android.travisci</a></p>
+
+<p>html5, ember.js, phonegap, android, java, travis-ci</p>
+
+<p>Android client for the Travis CI Continuous Integration service</p>
+
+<p>Only contributor so far</p>
+
+<hr />
+
+<p><strong>GitHub - atom-compare-files</strong>, <a href="https://github.com/floydpink/atom-compare-files">https://github.com/floydpink/atom-compare-files</a>, <em>March 2014 - July 2015</em></p>
+
+<p>Compares two files and show the diff in the atom editor</p>
+
+<p>Founded the project when the Atom Editor was in the beta (pre v1.0) versions.</p>
+
+<p>Not active anymore.</p>
+
+<hr />
+
+<p><strong>GitHub - Mantis-CI</strong>, <a href="https://github.com/floydpink/Mantis-CI">https://github.com/floydpink/Mantis-CI</a>, <em>October 2012 - March 2014</em></p>
+
+<p>java, android, phonegap, travis-ci</p>
+
+<p>An Android app for the open source continuous integration service- Travis-CI. The technology used is PhoneGap/Cordova and so, the web application (which is maintained as another git repository on GitHub, brought in as a git submodule), is also repackaged as an iOS application from another repository</p>
+
+<p>Only developer</p>
+
+<hr />
+
+<p><strong>Mantis CI on the App Store on iTunes</strong>, <a href="https://itunes.apple.com/us/app/mantis-ci/id665742482?mt=8">https://itunes.apple.com/us/app/mantis-ci/id665742482?mt=8</a></p>
+
+<p>html5, ember.js, ios, phonegap, objective-c</p>
+
+<p>iOS client for the Travis CI Continuous Integration service</p>
+
+<p>Only contributor so far</p>
+
+<hr />
+
+<p><strong>GitHub - Mantis-CI-iOS</strong>, <a href="https://github.com/floydpink/Mantis-CI-iOS">https://github.com/floydpink/Mantis-CI-iOS</a>, <em>June 2013 - August 2013</em></p>
+
+<p>objective-c, phonegap, ios</p>
+
+<p>An iOS app for the open source continuous integration service- Travis-CI. The technology used is PhoneGap/Cordova and so, the web application (which is maintained as another git repository on GitHub, brought in as a git submodule), is also repackaged as an Android application from another repository</p>
+
+<p>Only developer</p>
+
+<hr />
+
+<p><strong>GitHub - lzwCompress.js</strong>, <a href="https://github.com/floydpink/lzwCompress.js">https://github.com/floydpink/lzwCompress.js</a>, <em>November 2012 - March 2015</em></p>
+
+<p>Lossless LZW compression/decompression implemented in JavaScript for strings/JSON/JS objects.</p>
+
+<p>Only developer in this library for compression of JavaScript objects using the LZW compression algorithm</p>
+
+<hr />
+
+<p><strong>GitHub - kollavarsham-nodejs</strong>, <a href="https://github.com/kollavarsham/kollavarsham-nodejs">https://github.com/kollavarsham/kollavarsham-nodejs</a>, <em>January 2014 - March 2015</em></p>
+
+<p>javascript, node.js</p>
+
+<p>Node.js implementation of the <a href="http://kollavarsham.org">Kollavarsham (Malayalam Era)</a> open source libraries.</p>
+
+<p>Main developer on this effort with more than 90% of the total commits</p>
+
+<hr />
+
+<p><strong>GitHub - CachedImage</strong>, <a href="https://github.com/floydpink/CachedImage">https://github.com/floydpink/CachedImage</a>, <em>March 2014 - January 2015</em></p>
+
+<p>A WPF control that wraps the Image control to enable file-system based caching</p>
+
+<p>Packaged up the component from the code available on a Stack Overflow question as detailed in the <a href="http://floydpink.github.io/CachedImage/">accompanying website</a></p>
+
+<hr />
+
+<p><strong>GitHub - Mantis-CI-www</strong>, <a href="https://github.com/floydpink/Mantis-CI-www">https://github.com/floydpink/Mantis-CI-www</a>, <em>March 2013 - January 2015</em></p>
+
+<p>javascript, jquery, jquery-mobile, ember.js, ember-model, requirejs, gruntjs, html5, handlebars.js</p>
+
+<p>The www git-submodule for Mantis CI PhoneGap apps for Android &amp; iOS.</p>
+
+<p>Only developer</p>
+
+<hr />
+
+<h2>Writing</h2>
+
+<p><strong>Single-click deployment of WPF application to GitHub Pages</strong>, <a href="http://flickrdownloadr.com/blogs/blog/2013/01/15/single-click-deployment-of-wpf-application-to-github-pages/">http://flickrdownloadr.com/blogs/blog/2013/01/15/single-click-deployment-of-wpf-application-to-github-pages/</a></p>
+
+<p>Sharing the experience of implementing the single-click deployment for the WPF app as a ClickOnce installer to flickrdownloadr.com, which is hosted on GitHub Pages</p>
+
+<hr />
+
+<p><strong>Auto-deploying to my Octopress blog with Travis-CI - Hari Menon</strong>, <a href="https://www.harimenon.com/blog/2013/01/27/auto-deploying-to-my-octopress-blog/">https://www.harimenon.com/blog/2013/01/27/auto-deploying-to-my-octopress-blog/</a></p>
+
+<p>A couple weeks earlier, Sergey Klimov (who is @darvin at GitHub) opened the issue #940 at imathis/octopress, which is more a feature suggestion than …</p>
+
+<hr />
+
+<p><strong>AOP for logging in .NET - Hari Menon</strong>, <a href="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/">https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/</a></p>
+
+<p>Implementing the AOP pattern into a C# .NET application is something I always wanted to do. I had tried PostSharp with a few other team members, a …</p>
+
+<hr />
+
+<p><strong>Compressing JSON - lzwCompress.js - Hari Menon</strong>, <a href="https://www.harimenon.com/blog/2012/12/07/lzwCompress.js/">https://www.harimenon.com/blog/2012/12/07/lzwCompress.js/</a></p>
+
+<p>The application that I am working on now is a nice little ASP.NET MVC4 web app, whose target audience will access it on some of the popular tablets …</p>
+
+<hr />
+
+<p><strong>The Story Behind Mantis CI - Hari Menon</strong>, <a href="https://www.harimenon.com/blog/2013/09/09/the-story-behind-mantis-ci/">https://www.harimenon.com/blog/2013/09/09/the-story-behind-mantis-ci/</a></p>
+
+<p>Mobile Application for Travis CI™ tl;dr: Mantis CI, is a free app (available for both iOS/Android) that attempts to be a mobile-optimized client for …</p>
+
+<hr />
+
+<p><strong>The CI chain reaction that builds flickr downloadr</strong>, <a href="http://flickrdownloadr.com/blogs/blog/2014/12/08/the-ci-chain-reaction-that-builds-flickr-downloadr">http://flickrdownloadr.com/blogs/blog/2014/12/08/the-ci-chain-reaction-that-builds-flickr-downloadr</a></p>
+
+<p>As written on the last entry in this blog, I finally got to write something on points 1) and 2) there - the CI (continuous integration) builds that …</p>
+
+<hr />
+
+<h2>Tools</h2>
+
+<p><strong>First Computer:</strong> Pentium III on Win &#39;98</p>
+
+<p><strong>Favorite Editor:</strong> WebStorm, Visual Studio</p>
+
+<hr />
+
+<p><small>Last Updated: 2015-07-23</small></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ഒരു നല്ല മലയാളം കവിത ]]></title>
+    <link href="https://www.harimenon.com/blog/2013/08/02/oru-nalla-malayalam-kavitha/"/>
+    <updated>2013-08-02T20:14:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/08/02/oru-nalla-malayalam-kavitha</id>
+    <content type="html"><![CDATA[<iframe width="420" height="315" src="https://www.harimenon.com//www.youtube.com/v/YuyyArqlkXM?version=3&start=3134&end=3213&autoplay=0&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=1&hl=en_US" frameborder="0" allowfullscreen></iframe>
+
+
+<!-- more -->
+
+
+<p>``` plain
+പ്രണയം... പ്രാണൻ കൊടുത്താലും നാണയം ഇല്ലെങ്കിൽ നാണം കേടുന്നൊരു നാട്ടിലാണിന്നെന്റെ പ്രണയം !</p>
+
+<p>ഹൃദയം... ഹൃദ്യമാണെന്നൊക്കെ തോന്നും അതെന്നാലും ദയയെന്ന ഭാവത്തെ അറിയാത്ത മരമിന്നു ഹൃദയം !</p>
+
+<p>വിജയം... വിദ്യയിൽ നാമഗ്രകണ്യനായി മാറിയിട്ടന്പരപ്പില്ലാതെ നേടേണ്ട പലതല്ലേ വിജയം !</p>
+
+<p>വിനയം... വിജയങ്ങളോരോന്നായി അറിയുന്പോൾ അകതാരിൽ അറിയാതെ വിടരേണ്ട മണമുള്ള മലരാണു വിനയം !</p>
+
+<p>നടനം... ബന്ധങ്ങൾ അകലാതിരിക്കുവാൻ അച്ഛനും അമ്മയും മക്കളും ചേർന്നു നിന്നാടുന്നു നടനം !</p>
+
+<p>ഭവനം... ഭയ ഭക്തി ബഹുമാനം ഭാര്യയോടായല്പം കാട്ടിയില്ലെങ്കിൽ ഭയക്കേണ്ട വനമാകും ഭവനം !</p>
+
+<p>പതനം... പുതുതായി നിനക്കൊന്നും ലോകത്തിനായിട്ടു നല്കാൻ കഴിഞ്ഞില്ല എങ്കിൽ നീ അറിയൂ നിൻ പതനം !</p>
+
+<p>മരണം... രണ്ടു നാൾ സങ്കട കണ്ണീരു കഴിയുന്പോൾ ഉറ്റവർ പോലും മറക്കുമല്ലോ എന്റെ മരണം !</p>
+
+<p>രണ്ടു നാൾ സങ്കട കണ്ണീരു കഴിയുന്പോൾ ഉറ്റവർ പോലും മറക്കുമല്ലോ എന്റെ മരണം !
+```</p>
+
+<p>ഇന്നലെ facebook-ൽ നിന്നും ലഭിച്ച ഈ ഒരു കവിത എനിക്ക് വല്ലാതെ അങ്ങ് ഇഷ്ട്ടമായി...</p>
+
+<p>കണ്ടു കഴിഞ്ഞപ്പോ തന്നെ അതിന്റെ lyrics ആരേലും online post-യിട്ടുണ്ടോ എന്ന് നോക്കി. കണ്ടില്ല !</p>
+
+<p>ഉടനെ തന്നെ കുത്തിയിരുന്ന് Google transliteration വഴി ടൈപ്പ് ചെയ്തുണ്ടാക്കി <a href="https://www.facebook.com/menonhari/posts/10151829324394772?comment_id=29832846&amp;offset=0&amp;total_comments=2">facebook -ൽ പോസ്റ്റ്‌ ചെയ്തു</a>.</p>
+
+<p>അതിന്റെ വീഡിയോ സഹിതം ഒരു ബ്ലോഗ്‌ എഴുതണം എന്നും വിചാരിച്ചു. ഇപ്പൊ ദാ പോസ്റ്റുന്നു...</p>
+
+<p>നാദിർഷാ, നിങ്ങൾക്ക് എന്റെ അഭിനന്ദനങ്ങൾ... :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A proud Macbook Pro owner]]></title>
+    <link href="https://www.harimenon.com/blog/2013/05/29/a-proud-owner/"/>
+    <updated>2013-05-29T00:00:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/05/29/a-proud-owner</id>
+    <content type="html"><![CDATA[<p>I am now a proud owner of a brand-spnking new <a href="http://store.apple.com/us/configure/MD103LL/A">Macbook Pro</a>, thanks to my dear wife's birthday gift last week ! :o)</p>
+
+<p>And she did not spoil any fun; kept it a closely guarded secret until the midnight hour birthday cake!.</p>
+
+<p>I love you, dear wifey! :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[എഴുതണമെന്നു ആഗ്രഹമുണ്ടായാല്‍ മാത്രം പോരല്ലോ...]]></title>
+    <link href="https://www.harimenon.com/blog/2011/02/10/ezuthanamennu-aagrahamundaayal-matram-porallo/"/>
+    <updated>2011-02-10T02:46:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2011/02/10/ezuthanamennu-aagrahamundaayal-matram-porallo</id>
+    <content type="html"><![CDATA[<div class='post'>
+വളരേയധികം കാര്യങ്ങള്‍ എഴുതുവാനും ഉണ്ട്.<br /><br />പറഞ്ഞിട്ടെന്താ, സമയം ഉണ്ടാക്കുവാന്‍ സാധിക്കുന്നില്ല !<br /><br />താമസിയാതെ തന്നെ മാറ്റങ്ങള്‍ വരുമായിരിക്കും !
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ഇടവേള തുടരുന്നു...]]></title>
+    <link href="https://www.harimenon.com/blog/2009/11/18/%E0%B4%87%E0%B4%9F%E0%B4%B5%E0%B5%87%E0%B4%B3-%E0%B4%A4%E0%B5%81%E0%B4%9F%E0%B4%B0%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%81/"/>
+    <updated>2009-11-18T02:19:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2009/11/18/ഇടവേള-തുടരുന്നു</id>
+    <content type="html"><![CDATA[<div class='post'>
+സഹൃദയരേ,<br />വളരേ നാളുകൾക്ക് മുമ്പേ ഞാൻ തുടങ്ങി വെച്ചിരുന്ന ശ്രീശൈല ചരിതവും, ബ്ലോഗുകൾ ആകപ്പാടെ തന്നെയും കുറച്ചു കാലമായി കട്ടപ്പുറത്താണ് എന്നുള്ള കാര്യം ഈ കാലയളവിൽ ഇതു വഴി വന്നിരുന്നുവെങ്കിൽ നിങ്ങൾ ശ്രദ്ധിച്ചിരിക്കും. ഉദ്യോഗപരവും സ്വകാര്യവുമായ കുറച്ച് തിരക്കുകൾ കാരണമാണ് ഈ ഇടവേള എന്ന് നിങ്ങളേവരേയും അറിയിക്കുന്നതിനോടൊപ്പം, കുറച്ച് കാലം കൂടെ ഈ വരൾച്ച തുടരാൻ സാദ്ധ്യത ഉള്ള വിവരം കൂടെ ഇവിടെ പറഞ്ഞ് കൊള്ളട്ടെ. അധികം താമസിയാതെ തന്നെ പൂർവ്വാധികം ശക്തിയാർജ്ജിച്ച് ബൂലോകത്തേക്ക് തിരിച്ച് വരാൻ പറ്റുമെന്ന വിശ്വാസത്തോടെ...
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

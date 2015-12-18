@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ windows | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using keyboard as mouse]]></title>
+    <link href="https://www.harimenon.com/blog/2013/01/22/using-keyboard-as-mouse/"/>
+    <updated>2013-01-22T12:06:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/01/22/using-keyboard-as-mouse</id>
+    <content type="html"><![CDATA[<p>Here's how to get the mouse functionality using just the keyboard (with Numpad) on Windows:
+<small><blockquote><p>One good one to remember is ALT+Left Shift+NumLock<br/>Then you can use your keypad as a mouse. / and - toggle which mouse button 5 is.</p><footer><strong>halviti</strong> <cite><a href='http://news.ycombinator.com/item?id=5097490'>An HN Comment</a></cite></footer></blockquote></small></p>
+
+<p>Could be useful sometime...</p>
+]]></content>
+  </entry>
+  
+</feed>

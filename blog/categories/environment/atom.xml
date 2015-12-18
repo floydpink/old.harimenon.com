@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ environment | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/environment/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A 13 year old addressing the UN]]></title>
+    <link href="https://www.harimenon.com/blog/2008/06/07/13-year-old-addressing-un/"/>
+    <updated>2008-06-07T20:17:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2008/06/07/13-year-old-addressing-un</id>
+    <content type="html"><![CDATA[<div class='post'>
+<object width="425" height="344"><param name="movie" value="https://www.youtube.com/v/TQmz6Rbpnu0&amp;hl=en&amp;rel=0&amp;color1=0x2b405b&amp;color2=0x6b8ab6"><embed src="https://www.youtube.com/v/TQmz6Rbpnu0&amp;hl=en&amp;rel=0&amp;color1=0x2b405b&amp;color2=0x6b8ab6" type="application/x-shockwave-flash" width="425" height="344"></embed></object><br /><br /><span style="font-size:85%;"><span>Please pass it on... </span><span>Let's stop talking the walk and start walking the talk !</span></span>
+</div>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

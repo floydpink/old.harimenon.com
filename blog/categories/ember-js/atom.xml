@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ ember.js | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/ember-js/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Adding splash screen to an Ember.js app]]></title>
+    <link href="https://www.harimenon.com/blog/2013/03/13/adding-splash-screen-to-an-ember-dot-js-app/"/>
+    <updated>2013-03-13T19:48:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/03/13/adding-splash-screen-to-an-ember-dot-js-app</id>
+    <content type="html"><![CDATA[<p>Have been playing around with <a href="http://emberjs.com">Ember.js</a> quite a bit lately and it's been real good fun. I have been trying to put together a <a href="http://cordova.apache.org/">PhoneGap/Cordova</a> based Android app, for the awesome, open source, continuous integration application - <a href="http://travis-ci.org">Travis-CI</a>. It is really in its pre-natal stages, but you could see whatever I've been doing <a href="https://github.com/floydpink/Travis-CI">here</a>.</p>
+
+<p>And I implemented a splash screen for that app using the below technique.</p>
+
+<!-- more -->
+
+
+<p>``` javascript
+var App = Ember.Application.createWithMixins({</p>
+
+<pre><code>LOG_TRANSITIONS: true,
+init: function () {
+    this.deferReadiness();
+    this._super();
+}
+</code></pre>
+
+<p>});</p>
+
+<p>App.Router.map(function () {</p>
+
+<pre><code>this.resource('splash');
+this.resource('main');
+this.resource('sub');
+</code></pre>
+
+<p>});</p>
+
+<p>App.IndexRoute = Ember.Route.extend({</p>
+
+<pre><code>redirect: function () {
+    var seenSplash = $.cookie('seen-splash');
+    if (!seenSplash) {
+        $.cookie('seen-splash', "true");
+        this.transitionTo('splash');
+    } else {
+        this.transitionTo('main');
+    }
+}
+</code></pre>
+
+<p>});</p>
+
+<p>App.SplashRoute = Ember.Route.extend({</p>
+
+<pre><code>enter: function () {
+    var widthOrHeight = $(window).height() &gt; $(window).width() ? 'width' : 'height';
+    $('#splash-content').find('img').css(widthOrHeight, '70%');
+    $('#splash').fadeIn();
+
+    Ember.run.later(this, function () {
+        $('#splash').fadeOut().detach();
+        this.transitionTo('main');
+    }, 1500);
+}
+</code></pre>
+
+<p>});</p>
+
+<p>App.MainController = Ember.Controller.extend({</p>
+
+<pre><code>clearCookie: function () {
+    $.cookie('seen-splash', null);
+    console.log('cleared session cookie');
+}
+</code></pre>
+
+<p>});</p>
+
+<p>App.advanceReadiness();
+```</p>
+
+<p>These are the versions of jQuery, Ember and Handlebars this was tested with:</p>
+
+<p><code>plain
+DEBUG: -------------------------------
+DEBUG: Ember.VERSION : 1.0.0-rc.1
+DEBUG: Handlebars.VERSION : 1.0.0-rc.3
+DEBUG: jQuery.VERSION : 1.9.1
+DEBUG: -------------------------------
+</code></p>
+
+<p>You could find this in action <a href="http://jsfiddle.net/FloydPink/73GBx/">on jsfiddle</a>.</p>
+
+<p>Please leave a comment if you found this useful! :)</p>
+]]></content>
+  </entry>
+  
+</feed>

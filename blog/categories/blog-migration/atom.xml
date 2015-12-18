@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ blog migration | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/blog-migration/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated this blog to Octopress]]></title>
+    <link href="https://www.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress/"/>
+    <updated>2013-01-18T01:55:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress</id>
+    <content type="html"><![CDATA[<p><blockquote><p><small><strong>Update (01/22/2013)</strong>: Perhaps I blogged too soon! I'm loving the Octopress so much, that the whole site has now been updated to be built with Octopress. So some old blogs (<a href="http://en.blog.harimenon.com">english</a> &amp; <a href="http://technology.harimenon.com">technical</a>) get redirected to the corresponding categories on the new unified blog, while some others (<a href="http://ml.blog.harimenon.com">malayalam</a> are still on blogger and are not linked from the site for the time being.</small></p></blockquote></p>
+
+<p>This blog had been on blogger since its inception back in 2009, though it really has only a very few posts in those almost-four years. The newly found love for the <a href="http://octopress.org/">Octopress</a> blogging platform, thanks to the experience setting up the <a href="http://flickrdownloadr.com/blogs">flickrdownloadr blog</a> recently, I decided to bite the bullet and move my technical blog over.</p>
+
+<!-- more -->
+
+
+<p>This <a href="http://approache.com/blog/migrating-from-blogger-to-octopress/">really nice post</a> by <a href="http://github.com/dnagir">Dmytrii Nagirniak</a> made the whole migration process really a breeze, thanks to the nifty <a href="https://gist.github.com/1765496">Blogger-Octopress migration script</a> and the simple <a href="http://www.sinatrarb.com/">Sinatra</a> <a href="https://github.com/dnagir/approache-redirects/blob/master/app.rb">redirection app</a> he has provided there. <s>Even though I ended up not using the sinatra app, because for me: a) the domain name is not changing during this migration and b) the new permalink slug in fact has additional element - which is the <code>day</code> from the published date (whereas the blogger permalink format was just <code>year</code> and <code>month</code>). So unless I hard-code all the post URLs to be redirected (which in reality I could, considering I have just 13 posts that are being moved), the redirection app I thought, is not worth it.</p>
+
+<p>I did manualy add all the old permalinks with static meta-tag and JavaScript based redirection though. So if you watch the headers in fiddler or something while clicking this old blogger URL - <a href="http://technology.harimenon.com/2012/12/lzwCompress.js.html">http://technology.harimenon.com/2012/12/lzwCompress.js.html</a>, you would see a page come down with 200, that does either of a <code>&lt;meta http-equiv="refresh" content="0;url=..."/&gt;</code> refresh or the <code>location.replace('...')</code> from the JavaScript within, to the new URL on Octopress - <a href="http://technology.harimenon.com/blog/2012/12/06/lzwCompress.js/">http://technology.harimenon.com/blog/2012/12/06/lzwCompress.js/</a>.</p>
+
+<p>But all the old label/category/archive links etc. (like this one - <a href="http://technology.harimenon.com/search/label/ClickOnce%20Deployment">http://technology.harimenon.com/search/label/ClickOnce Deployment</a> would  remain broken but I have decided that's how it's going to be.</s></p>
+
+<p><blockquote><p><small><strong>Update (01/22/2013)</strong>: Both the old blogs (english and technical ones) are now being redirected with Sinatra apps made of off <a href="http://github.com/dnagir">Dmytrii</a>'s <a href="https://github.com/dnagir/approache-redirects">redirection app</a>.</small></p></blockquote></p>
+
+<p>Hopefully, the new blogging platform would be <em>the</em> impetus that I've been waiting for to start churning up a lot of posts!</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ tracing | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/tracing/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[AOP for logging in .NET]]></title>
+    <link href="https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net/"/>
+    <updated>2012-12-16T19:23:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2012/12/16/aop-for-logging-in-net</id>
+    <content type="html"><![CDATA[<p><strong>UPDATE (02/24/2013):</strong>
+I did manage to figure out (thanks to Jon Skeet <a href="http://stackoverflow.com/a/14288190/218882">answering</a> my question on SO) how to tackle the async/await scenario for a AOP logger using StructureMap and DynamicProxy. Check out <del><a href="https://github.com/floydpink/LoggerPoc/tags">the tag v0.2</a></del> <a href="https://github.com/floydpink/LoggerPoc/tags">the tag v0.3</a> [1] on GitHub for the source.</p>
+
+<hr />
+
+
+<p>Implementing the <a href="http://en.wikipedia.org/wiki/Aspect-oriented_programming">AOP pattern</a> into a C# .NET application is something I always wanted to do. I had tried PostSharp with a few other team members, a while ago, but could not get it working soon enough, that we quit the attempt after a while.</p>
+
+<p>After reading up a little more (<a href="http://docs.castleproject.org/Default.aspx?Page=Introduction-to-AOP-With-Castle&amp;amp;NS=Windsor&amp;amp;AspxAutoDetectCookieSupport=1">here</a>, <a href="http://weblogs.asp.net/thangchung/archive/2011/01/25/aop-with-structuremap-container.aspx">here</a> and <a href="http://ayende.com/blog/3474/logging-the-aop-way">here</a>) I am now trying it all over again in the <a href="http://flickrdownloadr.com/">flickr downloadr</a> that I am now working on.</p>
+
+<p>I still haven’t completely cracked it, because the Flickr Downloadr WPF app heavily uses the new asynchrony features (async/await etc.) from .NET 4.5. I hope to somehow adapt the dynamic proxy based intercept paradigm to make it work with the new asynchronous model soonand I shall follow this up here then with the details.</p>
+
+<!-- more -->
+
+
+<p>Meanwhile, here’s <a href="https://github.com/floydpink/LoggerPoc/tags">the solution on GitHub (as tag v0.1)</a> that is a proof-of-concept console app, which calls into two separate service classes. As long as there are no asynchrony features from .NET. 4.5 in your app, you should be able to make use of this pattern.</p>
+
+<p>There is some business specific logging (what I call organic logging )happening inside one of these service classes themselves. But there is also code enables aop logging of all the entry and exit into every method in these pseudo- business objects.</p>
+
+<p>The main method that does the AOP magic is the Intercept method of the IInterceptor interface.
+<div><script src='https://gist.github.com/4315686.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+It could peep into the method being called, its arguments, its return type etc. through the invocation instance, do things like logging and then make the real call to the real invocation. The try/catch that is implemented at this level could be the only place that happens. Auditing, authentication etc. could also be implemented at this layer to affect all the classes/methods one chooses.</p>
+
+<p>[1] - <small>[updated: 03/25/2014]</small></p>
+]]></content>
+  </entry>
+  
+</feed>

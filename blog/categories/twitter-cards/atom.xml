@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ Twitter Cards | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/twitter-cards/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Cards for Octopress blogs]]></title>
+    <link href="https://www.harimenon.com/blog/2013/02/23/twitter-cards-for-octopress-blogs/"/>
+    <updated>2013-02-23T19:21:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/02/23/twitter-cards-for-octopress-blogs</id>
+    <content type="html"><![CDATA[<p>The first time I heard about <a href="https://dev.twitter.com/docs/cards">Twitter Cards</a> is from <a href="https://github.com/blog/1388-github-now-supports-twitter-cards">the GitHub blog entry</a> announcing they have implemented it for all the GitHub respositories. And if you haven't heard about them, go to either of those posts and you'd get a quick overview.</p>
+
+<p>Anyways, since the time I read that blog, I have been thinking of trying to implement it here on this blog as well as on the other website I've been actively maintaining lately - <a href="http://flickrdownloadr.com">flickrdownloadr.com</a>. Finally got around to doing it yesterday on the static pages at flickrdownloadr site (even though I am still waiting for Twitter to approve my site).</p>
+
+<!-- more -->
+
+
+<p>Today, I took it one step further by implementing it here and on <a href="http://flickrdownloadr.com/blogs/">the blog there</a>, which are both built with the awesome <a href="http://octopress.org">Octopress</a> platform. Turned out to be pretty straight-forward - just add the below snippet into the <code>source/_includes/custom/head.html</code> and you should be all set.</p>
+
+<p>``` html twitter_cards
+{% if site.twitter_user %}</p>
+
+<pre><code>&lt;meta property="twitter:card" content="summary"&gt;
+&lt;meta property="twitter:site" content="{{ site.twitter_user }}"&gt;
+&lt;meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}"&gt;
+&lt;meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"&gt;
+&lt;meta property="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}"&gt;
+</code></pre>
+
+<p>{% endif %}
+```</p>
+
+<p>P.S: Also, you would need to apply (or "opt-in") for Twitter Cards <a href="https://dev.twitter.com/form/participate-twitter-cards">here</a> <strong><em>and</em></strong> they will have to approve it for the cards to start showing up.</p>
+]]></content>
+  </entry>
+  
+</feed>

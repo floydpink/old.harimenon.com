@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ MSBuild | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/msbuild/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Single-click Deployment of WPF Application to GitHub Pages]]></title>
+    <link href="https://www.harimenon.com/blog/2013/01/15/single-click-deployment/"/>
+    <updated>2013-01-15T16:53:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/01/15/single-click-deployment</id>
+    <content type="html"><![CDATA[<p>I have posted an entry on the flickrdownloadr.com blog, about how the single click deployment came about.</p>
+
+<p>Check it out <a href="http://flickrdownloadr.com/blogs/blog/2013/01/15/single-click-deployment-of-wpf-application-to-github-pages/">here&hellip;</a></p>
+]]></content>
+  </entry>
+  
+</feed>

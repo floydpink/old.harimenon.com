@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ bash | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/bash/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2015-12-18T17:41:12+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Start WEBrick Web Server Here]]></title>
+    <link href="https://www.harimenon.com/blog/2013/02/14/start-webrick-here/"/>
+    <updated>2013-02-14T21:40:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/02/14/start-webrick-here</id>
+    <content type="html"><![CDATA[<p>I have started dabbling with <a href="http://emberjs.com/">Ember.js</a> and it sure looks awesome!</p>
+
+<p>This necessitated a quick and easy way to start serving the current directory through some webserver. And because of the recent adventures with Octopress, I happened to be aware of the presence of WEBrick as a nifty, light-weight server.</p>
+
+<p>This led me to google <code>"start a webrick server at current directory windows"</code> and the first link was to <a href="http://stackoverflow.com/questions/3108395/serve-current-directory-from-command-line">this question</a> on Stack Overflow.</p>
+
+<!-- more -->
+
+
+<p>Thanks to <a href="http://stackoverflow.com/a/7105609/218882">the highly voted (albeit not the accepted) answer</a> there, I added this snippet to my <code>.bashrc</code>:
+<code>bash
+function serve {
+  port="${1:-3000}"
+  ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port =&gt; $port, :DocumentRoot =&gt; Dir.pwd); trap('INT') { s.shutdown }; s.start"
+}
+</code></p>
+
+<p>And, Voila! I now have the current directory served via WEBrick, just by using the command of <code>serve &lt;desired-port-number&gt;</code>.</p>
+
+<p>That was good!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Single-click Deployment of WPF Application to GitHub Pages]]></title>
+    <link href="https://www.harimenon.com/blog/2013/01/15/single-click-deployment/"/>
+    <updated>2013-01-15T16:53:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2013/01/15/single-click-deployment</id>
+    <content type="html"><![CDATA[<p>I have posted an entry on the flickrdownloadr.com blog, about how the single click deployment came about.</p>
+
+<p>Check it out <a href="http://flickrdownloadr.com/blogs/blog/2013/01/15/single-click-deployment-of-wpf-application-to-github-pages/">here&hellip;</a></p>
+]]></content>
+  </entry>
+  
+</feed>
