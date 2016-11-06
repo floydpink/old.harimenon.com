@@ -16,13 +16,13 @@ The sun is blazing<br />
 There's no water<br />
 There's almost no food<br />
 There's only animals<br />
-<br />
+
 I love the desert<br />
 Be careful<br />
 Because there's cactus<br />
 It has thorns<br />
 <br />
-- Maya Haridas
+ \- Maya Haridas
 
-> The very first poem by Maya - 11/05/2016
+> The very first poem by (5.5 yo) Maya - 11/05/2016
 > 🌵 🐫 
