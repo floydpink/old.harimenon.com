@@ -42,7 +42,7 @@ created_at: "Sat 04 Mar 2017 20:30:00 EST"
 > Like a peacock's plume, like a flute  
 > Like *Ambadi* with the fragrance and the sacredness of *Tulsi*,  
 > Like a sacred plate carrying freshly made butter  
-> Your song is like Yumana in Vrindavan
+> Your song is like the river *Yamuna*
 
 രാധേ&hellip; യാദവ കുലമൗലേ&hellip;   
 കണ്ണനു നീയേ വനമാല&hellip; (2)  
