@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ maya | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/maya/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2017-03-05T02:40:57+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Desert]]></title>
+    <link href="https://www.harimenon.com/blog/2016/11/06/the-desert/"/>
+    <updated>2016-11-06T08:41:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2016/11/06/the-desert</id>
+    <content type="html"><![CDATA[<p>The sun is blazing<br />
+There's no water<br />
+There's almost no food<br />
+There's only animals<br /></p>
+
+<p>I love the desert<br />
+Be careful<br />
+Because there's cactus<br />
+It has thorns<br /></p>
+
+<br />
+
+
+<p> - Maya Haridas</p>
+
+<blockquote><p>The very first poem by (5.5 yo) Maya - 11/05/2016
+🌵 🐫</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

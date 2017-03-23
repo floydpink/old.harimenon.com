@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ happy new year | Hari Menon]]></title>
+  <link href="https://www.harimenon.com/blog/categories/happy-new-year/atom.xml" rel="self"/>
+  <link href="https://www.harimenon.com/"/>
+  <updated>2017-03-05T02:40:57+00:00</updated>
+  <id>https://www.harimenon.com/</id>
+  <author>
+    <name><![CDATA[Hari Menon]]></name>
+    <email><![CDATA[me@harimenon.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Happy New Year!]]></title>
+    <link href="https://www.harimenon.com/blog/2017/01/02/happy-new-year/"/>
+    <updated>2017-01-02T19:16:00+00:00</updated>
+    <id>https://www.harimenon.com/blog/2017/01/02/happy-new-year</id>
+    <content type="html"><![CDATA[<p>Welcome, 2017!</p>
+
+<p>2016 fled past without too many blogs being added. Wistfully hoping there'd be a change in thi year.</p>
+
+<p>Happy new year!</p>
+]]></content>
+  </entry>
+  
+</feed>
